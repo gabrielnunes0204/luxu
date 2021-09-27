@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Luxu | Pagamento </title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,800&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/pagamento.css">
+	<link rel="shortcut icon" href="images/logo.png">
+</head>
+
+<body>
+	<div class="container" id="link">
+		<section class="menu">
+			<p> uma selação de produtos </p>
+			<h1> especial para você </h1>
+
+			<p class="texto-menu"> Todos os produtos desta lista foram selecionados a partir da sua navegação.
+				Aproveite! </p>
+
+			<div class="menu-links">
+				<a href="index.html" class="botao-menu"> Home </a>
+				<a href="dadosCompra.html" class="botao-menu"> Voltar aos Dados </a>
+				<a href="" class="botao-menu"> Conheça a Luxus </a>
+				<a href="produtos.html" class="botao-menu"> Nossos Produtos </a>
+				<a href="#contato" class="botao-menu link"> Contate-nos </a>
+			</div>
+		</section>
+
+		<section class="forma-pagamento">
+			<div class="formulario">
+				<input type="radio" class="input-radio" id="cartao" name="radio" checked> Cartão de Crédito
+				<input type="radio" class="input-radio" id="boleto" name="radio"> Boleto
+				<form class="formulario-cartao">
+					<label for="nome"> Nome Impresso no Cartão: </label>
+					<input type="text" id="nome" class="input" placeholder="Nome Cartão">
+
+					<label for="numero"> Número do Cartão: </label>
+					<input type="text" id="numero" class="input" placeholder="xxxx.xxxx.xxxx.xxxx">
+
+					<label for="dataValidade"> Data de Validade </label>
+					<input type="text" id="dataValidade" class="input" placeholder="31/12" maxlength="5">
+
+					<label for="codigoSeguranca"> CVV: </label>
+					<input type="text" id="codigoSeguranca" class="input" placeholder="xxx" maxlength="3">
+
+					<select class="qtde-parcelas">
+						<option> Selecione... </option>
+						<option id="opc1"> 1x - R$ 1.199,50 </option>
+						<option id="opc2"> 2x - R$ 599,75 </option>
+					</select>
+					<div class="pai-botao_finalizar">
+						<a href="index.html" class="botao-finalizar"> Finalizar Compra </a>
+					</div>
+				</form>
+
+				<form class="formulario-boleto">
+					<label for="emailBoleto"> E-mail para envio do boleto: </label>
+					<input type="email" id="emailBoleto" class="input" placeholder="E-mail">
+					<p> O boleto chegará em até 15 minutos, e poderá ser pago em qualquer rede bancária. </p>
+
+					<a href="index.html" class="botao-finalizar_boleto"> Finalizar Compra </a>
+				</form>
+			</div>
+
+			<div class="logo-marca">
+				<img src="images/fundo_pagamento.png" alt="Marca Luxu" class="imagem-marca">
+			</div>
+		</section>
+
+		<section class="rodape" id="contato">
+			<p> Contato: (21) 5555-5555 - <span class="email"> email@email.com </span></p>
+			<p> Brazil - 2021 </p>
+			<p class="nome-empresa"> Luxu Inc. </p>
+		</section>
+	</div>
+
+	<script type="module" src="js/pagamento.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js"
+		integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

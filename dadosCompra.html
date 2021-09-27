@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Luxu | Dados Compra </title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,800&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/dadosCompra.css">
+	<link rel="shortcut icon" href="images/logo.png">
+</head>
+
+<body>
+
+	<div class="container" id="link">
+		<section class="menu">
+			<p> uma selação de produtos </p>
+			<h1> especial para você </h1>
+
+			<p class="texto-menu"> Todos os produtos desta lista foram selecionados a partir da sua navegação.
+				Aproveite! </p>
+
+			<div class="menu-links">
+				<a href="index.html" class="botao-menu"> Home </a>
+				<a href="" class="botao-menu"> Conheça a Luxus </a>
+				<a href="produtos.html" class="botao-menu"> Nossos Produtos </a>
+				<a href="#contato" class="botao-menu link"> Contate-nos </a>
+			</div>
+		</section>
+
+		<section class="produtos">
+			<div class="bloco-produtos">
+				<div class="produto" id="produto">
+					<div class="quadro">
+
+					</div>
+					<p class="nome-produto"> <strong>Nome Produto</strong> </p>
+					<p class="descricao-produto"> Lorem ipsum dolor, sit amet consectetur elit. <br>
+						Laboriosam recusandae, impedit voluptate <br>
+						perferendis asperiores. </p>
+					<p class="produto-preco"> Por: R$ 19.99 </p>
+					<p class="produto-preco_parcelado"> ou 2x R$ 1.199,50 </p>
+					<a href="pagamento.html" class="botao-avancar" id="avancar"> Avançar </a>
+				</div>
+			</div>
+
+			<form class="formulario">
+				<label for="nome"> Nome: </label>
+				<input type="text" id="nome" class="input" placeholder="Nome completo">
+
+				<label for="cpf"> CPF: </label>
+				<input type="text" id="cpf" class="input" placeholder="xxx.xxx.xxx-xx" maxlength="11">
+
+				<label for="email"> E-mail: </label>
+				<input type="email" id="email" class="input" placeholder="email@email.com">
+
+				<p class="entrega"> Endereço de entrega </p>
+
+				<label for="cep"> CEP: </label>
+				<input type="text" id="cep" class="input" placeholder="xxxxx-xxx" maxlength="8">
+
+				<label for="rua"> Rua: </label>
+				<input type="text" id="rua" class="input" placeholder="Rua Ali do lado, 55">
+
+				<label for="numero"> Número: </label>
+				<input type="number" id="numero" class="input" placeholder="55">
+
+				<label for="cidade"> Cidade: </label>
+				<input type="text" id="cidade" class="input" placeholder="São Paulo">
+
+				<label for="estado"> Estado: </label>
+				<input type="text" id="estado" class="input" placeholder="SP">
+
+				<a href="#link" class="botao-frete"> Calcular Frete </a>
+			</form>
+		</section>
+
+		<section class="rodape" id="contato">
+			<p> Contato: (21) 5555-5555 - <span class="email"> email@email.com </span></p>
+			<p> Brazil - 2021 </p>
+			<p class="nome-empresa"> Luxu Inc. </p>
+		</section>
+	</div>
+
+	<div class="modal">
+		<h2> O valor do frete para <span id="cidade-frete">...</span> </h2>
+		<h3 id="valor-frete"> Fica R$ 69,00 </h3>
+		<hr>
+
+		<p> O prazo para entrega do produto é de: 10 dias </p>
+		<div class="botao-confirmacao">
+			<a href="#avancar" class="botao-confirmar"> Confirmar entrega </a>
+		</div>
+
+		<a href="#nome" class="botao-fechar"> X </a>
+	</div>
+
+	<script type="module" src="js/dadosCompra.js"></script>
+</body>
+</html>

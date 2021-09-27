@@ -1,0 +1,97 @@
+/* MENU */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+input {
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+body {
+  font-family: "Sarabun", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  animation: showChange 0.5s forwards;
+}
+
+.menu {
+  grid-column: 1 / 5;
+  background: #8a05f2;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.menu h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.menu .texto-menu {
+  margin-bottom: 60px;
+}
+
+.menu-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu .botao-menu {
+  font-size: 0.85rem;
+  letter-spacing: 1.5px;
+  background: #fff;
+  color: #8a05f2;
+  padding: 6px;
+  width: 150px;
+  border-radius: 4px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
+}
+
+.menu .botao-menu:hover {
+  background: #a229ff;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* RODAPÉ */
+.rodape {
+  grid-column: 1 / 5;
+  background: #8a05f2;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  line-height: 30px;
+}
+
+.rodape .email:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

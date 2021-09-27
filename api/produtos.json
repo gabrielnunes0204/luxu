@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "nome": "Smartphone",
+        "descricao": "O dispositivo foi lançado com um mesmo design que as versões anteriores, porém, com uma nova tela, além da opção de reconhecimento facial para desbloqueio.",
+        "precoAntigo": 2699,
+        "precoAtual": 2399
+    },
+    {
+        "id": 2,
+        "nome": "Tablet",
+        "descricao": "O dispositivo foi lançado com um mesmo design que as versões anteriores, porém, com uma nova tela, além da opção de reconhecimento facial para desbloqueio.",
+        "precoAntigo": 1599,
+        "precoAtual": 1299
+    },
+    {
+        "id": 3,
+        "nome": "Smartwatch",
+        "descricao": "O dispositivo foi lançado com um mesmo design que as versões anteriores, porém, com uma nova tela, além da opção de reconhecimento facial para desbloqueio.",
+        "precoAntigo": 3199,
+        "precoAtual": 2899
+    },
+    {
+        "id": 4,
+        "nome": "Notebook",
+        "descricao": "O dispositivo foi lançado com um mesmo design que as versões anteriores, porém, com uma nova tela, além da opção de reconhecimento facial para desbloqueio.",
+        "precoAntigo": 5799,
+        "precoAtual": 5499
+    },
+    {
+        "id": 5,
+        "nome": "Console Play5",
+        "descricao": "O dispositivo foi lançado com um mesmo design que as versões anteriores, porém, com uma nova tela, além da opção de reconhecimento facial para desbloqueio.",
+        "precoAntigo": 6099,
+        "precoAtual": 5799
+    },
+    {
+        "id": 6,
+        "nome": "Headphone",
+        "descricao": "O dispositivo foi lançado com um mesmo design que as versões anteriores, porém, com uma nova tela, além da opção de reconhecimento facial para desbloqueio.",
+        "precoAntigo": 899,
+        "precoAtual": 599
+    },
+    {
+        "id": 7,
+        "nome": "Google Glass",
+        "descricao": "O dispositivo foi lançado com um mesmo design que as versões anteriores, porém, com uma nova tela, além da opção de reconhecimento facial para desbloqueio.",
+        "precoAntigo": 7599,
+        "precoAtual": 7299
+    },
+    {
+        "id": 8,
+        "nome": "Kindle",
+        "descricao": "O dispositivo foi lançado com um mesmo design que as versões anteriores, porém, com uma nova tela, além da opção de reconhecimento facial para desbloqueio.",
+        "precoAntigo": 699,
+        "precoAtual": 399
+    }
+]
